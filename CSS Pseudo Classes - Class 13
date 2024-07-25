@@ -1,0 +1,28 @@
+a:link
+{
+  color: white
+}
+a:visited
+{
+  color:blue
+}
+a:active
+{
+  color:gray
+}
+
+
+:hover
+{
+  color:yellow
+}
+
+Positon property
+
+static(defaylt),
+relative (styles relative to something) ,
+fixed (fixed to one position not affect my scroll or any other elemtnt [come out or regular flow of document]) ,
+absolute (positon to parent who has relative display property) ,
+sticky it make  element move upto specific position then stick it to at that place;
+[display:sticky
+top:100px]
