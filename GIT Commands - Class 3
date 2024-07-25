@@ -1,0 +1,11 @@
+go insider folder - git init
+make changes - git add.
+commit: git commit -m" meaning message"
+utility commands: 
+git config -global user.name "name"
+git config -global user.email "email"
+git status - tells the status of tracking
+git log/ git log -oneline
+
+checkout: git checkout "ID Number of commit"
+ git checkout master
