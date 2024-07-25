@@ -1,0 +1,62 @@
+
+
+// Strings 
+console.log(typeof ("Hello"));
+let word = 'raining'  //String.Prototy[e]
+// console.log(word.toUpperCase()); //RAINING
+
+// let let = "hi"  - WRONG 
+
+
+console.log("Hello and good evening".length);
+console.log("Hello".charAt(4));
+
+
+
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof isNaN('five'));
+
+
+if ("hello") {
+        console.log("very true");
+} else {
+        console.log("very wrong");
+}
+
+
+console.log("hello".includes('e'));
+
+//Null Undefined
+let score1;
+let result1 = null;
+
+
+
+if (result1) {
+        console.log("very true");
+} else {
+        console.log("very wrong");
+}
+
+-----------------------------------------------------------------------------------------------------------
+
+:: index.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Javascript is Awesome</h1>
+    </header>
+    <script src="./example.js"></script>
+</body>
+
+</html>
