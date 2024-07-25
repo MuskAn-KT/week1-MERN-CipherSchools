@@ -1,0 +1,3 @@
+intialization : git init
+untracked zone - git status
+commit: git commit -m "message"
